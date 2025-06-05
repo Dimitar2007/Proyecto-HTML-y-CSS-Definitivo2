@@ -1,0 +1,115 @@
+*{
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 65%;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    font-size: 1.6rem;
+     background-image: url(Imagenes/Roblox_plataforma.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   height: 100%
+
+}
+
+footer{
+    background-color: rgb(136, 136, 136);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+   
+}
+
+footer img{
+    width: 10%;
+}
+
+.Titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: whitesmoke;
+}
+
+
+
+.texto-principal{
+    padding: 20rem 2rem 8rem 2rem;
+    background-color: rgba(255, 255, 255, 0.649);
+    text-align: center;
+}
+
+main{
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main img{
+    width: 10%;
+}
+
+
+
+video{
+    padding-top: 5rem;
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+audio{
+    float: right;
+}
+
+nav{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 70rem;
+    box-shadow: -5px 5px 5px black;
+}
+
+a {
+    background-color: rgb(255, 35, 35);
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    float: left;
+    width: 22rem;
+    text-align: center;
+    padding: 1.75rem;
+    border:0.2rem solid black;
+    transition: all 0.2s linear;  
+}
+
+a:hover{
+    transform: scale(0.9);
+    background-color: beige;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0rem;
+}
+
+
+h2{
+    padding: 3rem;
+}
+
+p{
+    font-size: 2.5rem;
+    /* background-color: rgb(255, 255, 255); */
+    margin: auto;
+    width: 80%;
+    padding: 4rem 1rem 4rem 1rem;
+}
